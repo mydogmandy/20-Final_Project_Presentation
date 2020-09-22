@@ -1,0 +1,25 @@
+Vehicles
+-
+index int pk fk - Occupant.index
+yearVeh int
+airbag varchar
+abcat varchar
+
+Accident
+-
+index int pk fk - Occupant.index
+dvcat varchar
+frontal int
+caseid varchar
+
+Occupant
+-
+index int pk
+dead varchar
+seatbelt varchar
+sex varchar
+ageOFocc int
+occRole varchar
+deploy int
+injSeverity int
+

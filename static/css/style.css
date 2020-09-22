@@ -1,0 +1,235 @@
+body {
+  color: #f7f7f7;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(black, darkred);
+  border-top: 5px solid whitesmoke;
+  border-bottom: 3px solid tan;
+  color: whitesmoke;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover {
+  background-color: darkred;
+}
+
+
+.jumbotron {
+  background-image: url("../images/Test.gif");
+  background-size: 100% 100%;
+  text-align: center;
+  border-radius: 20px;
+  height: 210px;
+  width: 1100px;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+}
+
+/* Media */
+
+img {
+  border-radius: 5%;
+}
+
+#dummy {
+  width: 100%;
+}
+
+.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 118%;
+  height: auto;
+}
+
+audio {
+  width: 16em;
+  height: 18px;
+}
+
+/* Headings */
+
+h1 {
+  text-shadow: 8px 8px 10px black;
+  font-family: courier;
+  font-family: courier;
+  font-size: 90px;
+  color: orange;
+}
+
+h2 {
+  text-shadow: 8px 8px 10px red;
+  font-family: courier;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h5 {
+  color: grey;
+}
+
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Text Selectors */
+
+p {
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+i {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px;
+  font-style: italic;
+  color: burlywood;
+}
+
+/* Form Element */
+
+input[type="text"] {
+  border: 2px solid rgb(2, 2, 34);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+  width: 250px;
+}
+
+select {
+  font-style: italic;
+  font-size: 16px;
+  width: 14em;
+}
+
+label {
+  font-size: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  color: yellow;
+}
+
+#reset {
+  width: 10em;
+  height: 2em;
+  font-size: 10px;
+  float: none;
+  border-radius: 20px;
+  background-color: gray;
+}
+
+button {
+  font-size: 25px;
+}
+
+#predict {
+  width: 11.5em;
+  height: 4em;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 20px;
+  float: none;
+  background-color: orange;
+  font-weight: 700;
+  box-shadow: 1px 2px black;
+}
+
+#prediction {
+  text-shadow: 8px 8px 10px black;
+}
+
+.responsive-google-slides {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.responsive-google-slides iframe {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Misc */
+
+ul {
+  color: greenyellow;
+  /* font-family: fantasy; */
+  font-size: 16px;
+}
+
+li {
+  font-family: courier;
+  text-align: center;
+}
+
+#polaroid {
+  border-radius: 8px;
+  background-color: whitesmoke;
+  color: darkred;
+}
+
+/* Custom */
+
+.wrapper {
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+#instructions {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#test {
+  font-family: fantasy;
+}
+
+#description {
+  font-family: fantasy;
+}
+
+#learn {
+  text-shadow: 8px 8px 10px orange;
+}
